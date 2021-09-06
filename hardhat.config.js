@@ -1,4 +1,6 @@
+var Contract = require('web3-eth-contract');
 const { task } = require("hardhat/config");
+
 require("@nomiclabs/hardhat-web3");
 require("@nomiclabs/hardhat-waffle");
 

@@ -70,6 +70,42 @@
       "artifacts": [
         "console"
       ]
+    },
+    "/Users/rahulgupta/Workspace/Blockchain/HowToUseHardhat/contracts/getterSetter.sol": {
+      "lastModificationDate": 1630867466112,
+      "contentHash": "8efea0cc00367de6009232151ee2bd15",
+      "sourceName": "contracts/getterSetter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "getterSetter"
+      ]
     }
   }
 }
